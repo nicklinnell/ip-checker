@@ -38,8 +38,8 @@ Before you begin, ensure you have met the following requirements:
     TELEGRAM_CHAT_ID=your_chat_id_here
     ```
 
-    Ensure to replace your_bot_token_here and your_chat_id_here with your actual
-    Telegram bot token and chat ID.
+    Ensure to replace `your_bot_token_here` and `your_chat_id_here` with your
+    actual Telegram bot token and chat ID.
 
 1.  **Build and Run the Docker Container:**
     With the .env file in place, you can start the container with Docker Compose:
@@ -68,8 +68,7 @@ activity in real-time.
 ## Customization
 
 This application allows for easy customization to fit your needs. You can
-adjust the check interval and modify the notification message by editing
-environment variables and the script.
+adjust the check interval by editing the `CHECK_INTERVAL` environment variable.
 
 ### Adjusting the Check Interval
 
